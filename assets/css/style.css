@@ -13,7 +13,7 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Headings */
+/* Headings and paragraphs*/
  h1, h2 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -23,11 +23,16 @@ body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
  }
 
+ p  {
+    color: #17202A;
+    font-size: 20px;
+ }
+
+
  /* navigations and links in header */
+
  #topcenter {
-    font-size: 350%;
-    display: flex;
-    justify-content: center;
+    font-size: 80px;
  }
 
  #navmenu li  {
@@ -35,6 +40,7 @@ body {
     justify-content: center;
     flex-direction: row;
     line-height: 70px;
+    font-size: 20px;
  }
 
  /* link highlight */
@@ -49,6 +55,19 @@ body {
 
  /* classes */
  .center    {
-    display: flex;
-    justify-content: center;
+    text-align: center;
  }
+
+ /* br and hr */
+ br {
+
+ }
+
+ hr {
+    margin: 30px auto;
+    border-top: dotted;
+    width: 5%;
+    border-width: 5%;
+    color: #17202A;
+ }
+
